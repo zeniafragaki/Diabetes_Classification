@@ -2,6 +2,7 @@
 
 This MATLAB project implements a machine learning model that predicts whether a person has diabetes based on health features and daily habbits. The model uses a **Support Vector Machine (SVM)** for classification.
 
+-All algorithms have been designed in MATLAB R2024b @ AMD Ryzen 5 7600X , 16GB RAM with Windows 11.
 
 
 ##  Dataset
