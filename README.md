@@ -1,8 +1,8 @@
-# 🧠 Diabetes Prediction using Machine Learning (SVM)
+#  Diabetes Prediction using Machine Learning (SVM)
 
 This MATLAB project implements a machine learning model that predicts whether a person has diabetes based on health and lifestyle features. The model uses a **Support Vector Machine (SVM)** for classification.
 
----
+
 
 ##  Dataset
 
@@ -13,7 +13,7 @@ The dataset is sourced from Kaggle:
 
 It contains medical and demographic data—such as age, gender, BMI, hypertension, heart disease, smoking history, HbA1c level, and blood glucose level—along with a diabetes diagnosis label (positive or negative).
 
----
+
 
 ## Files Included
 
@@ -24,7 +24,7 @@ It contains medical and demographic data—such as age, gender, BMI, hypertensio
 
 ---
 
-## ⚙️ How It Works
+##  Framework
 
 1. **Data Loading**  
 2. **Preprocessing**  
@@ -73,6 +73,6 @@ It contains medical and demographic data—such as age, gender, BMI, hypertensio
 
 4. **Requirements**
 
-    - MATLAB (R2020 or newer recommended)  
-    - No additional toolboxes required
+    - MATLAB 
+ 
 
