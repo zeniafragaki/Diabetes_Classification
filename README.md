@@ -8,8 +8,9 @@ This MATLAB project implements a machine learning model that predicts whether a 
 
 The dataset is sourced from Kaggle:
 
-**Diabetes Prediction Dataset** by iammustafatz  
-🔗 [https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
+**Diabetes Prediction Dataset** 
+-by iammustafatz  
+ Source: [https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
 
 It contains medical and demographic data—such as age, gender, BMI, hypertension, heart disease, smoking history, HbA1c level, and blood glucose level—along with a diabetes diagnosis label (positive or negative).
 
@@ -17,12 +18,12 @@ It contains medical and demographic data—such as age, gender, BMI, hypertensio
 
 ## Files Included
 
-- `main_script.m` – Main MATLAB script for data loading, preprocessing, model training, evaluation, and visualization  
+- `td1m_classifier.m` – Main MATLAB script for data loading, preprocessing, model training, evaluation, and visualization  
 - `evaluation.m` – Function to compute Accuracy, R² score, and RMSE  
 - `plot_classif.m` – Function to generate the confusion matrix plot  
 - `diabetes_dataset1.xlsx` – Excel version of the dataset (you must download and place this manually)
 
----
+
 
 ##  Framework
 
@@ -43,7 +44,6 @@ It contains medical and demographic data—such as age, gender, BMI, hypertensio
    - RMSE  
    - Confusion Matrix plot
 
----
 
 ## Instructions 
 
@@ -58,7 +58,6 @@ It contains medical and demographic data—such as age, gender, BMI, hypertensio
 
     - Visit the [Kaggle dataset page](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)  
     - Download `diabetes_prediction_dataset.csv` or `.xlsx`  
-    - Rename it to `diabetes_dataset1.xlsx`  
     - Place it in the project folder
 
 3. **Run in MATLAB**
@@ -68,7 +67,7 @@ It contains medical and demographic data—such as age, gender, BMI, hypertensio
     - Run the main script:
 
       ```matlab
-      main_script
+      td1m_classifier.m
       ```
 
 4. **Requirements**
