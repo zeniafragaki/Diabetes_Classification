@@ -1,4 +1,4 @@
-#  Diabetes Prediction using Machine Learning (SVM)
+#  Diabetes Prediction with Support Vector Machine (SVM)
 
 This MATLAB project implements a machine learning model that predicts whether a person has diabetes based on health and lifestyle features. The model uses a **Support Vector Machine (SVM)** for classification.
 
