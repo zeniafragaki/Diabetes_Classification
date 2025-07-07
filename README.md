@@ -4,7 +4,7 @@ This MATLAB project implements a machine learning model that predicts whether a 
 
 ---
 
-## 🗄️ Dataset
+##  Dataset
 
 The dataset is sourced from Kaggle:
 
@@ -15,7 +15,7 @@ It contains medical and demographic data—such as age, gender, BMI, hypertensio
 
 ---
 
-## 📂 Files Included
+## Files Included
 
 - `main_script.m` – Main MATLAB script for data loading, preprocessing, model training, evaluation, and visualization  
 - `evaluation.m` – Function to compute Accuracy, R² score, and RMSE  
@@ -45,7 +45,7 @@ It contains medical and demographic data—such as age, gender, BMI, hypertensio
 
 ---
 
-## 🚀 Setup & Run Instructions
+## Instructions 
 
 1. **Clone the repository**
 
@@ -76,16 +76,3 @@ It contains medical and demographic data—such as age, gender, BMI, hypertensio
     - MATLAB (R2020 or newer recommended)  
     - No additional toolboxes required
 
----
-
-## 👩‍💻 Author
-
-**Zenia Fragaki**  
-Machine Learning Project – Diabetes Classification  
-GitHub: [https://github.com/your-username](https://github.com/your-username)
-
----
-
-## 📄 License
-
-This project is intended for educational use. You may use, modify, or share it for non-commercial purposes. For commercial use, please contact the author.
