@@ -4,60 +4,88 @@ This MATLAB project implements a machine learning model that predicts whether a 
 
 ---
 
-##  Files
+## 🗄️ Dataset
 
-- `main_script.m` – Main script for data loading, preprocessing, model training, evaluation, and visualization.
-- `evaluation.m` – Function that computes Accuracy, R² (coefficient of determination), and RMSE.
-- `plot_classif.m` – Function to plot the confusion matrix.
-- `diabetes_dataset1.xlsx` – Dataset used for training and testing the model.
+The dataset is sourced from Kaggle:
 
----
+**Diabetes Prediction Dataset** by iammustafatz  
+🔗 [https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
 
-## Dataset
-
-The dataset contains personal health information such as:
-
-- Gender
-- Age
-- BMI
-- Smoking history
-- HbA1c level
-- Blood glucose level
-- Diabetes diagnosis (target variable)
-
-Categorical variables like gender and smoking history are encoded into numerical format for compatibility with the model.
+It contains medical and demographic data—such as age, gender, BMI, hypertension, heart disease, smoking history, HbA1c level, and blood glucose level—along with a diabetes diagnosis label (positive or negative).
 
 ---
 
-##  Framework
+## 📂 Files Included
 
-1. **Data Loading:** The dataset is loaded from an Excel file.
-2. **Preprocessing:**
-   - String features are encoded into numerical format.
-   - Data is normalized to the range [-1, 1].
-3. **Data Splitting:**
-   - 70% training and 30% testing split.
-4. **Model Training:** A Support Vector Machine is trained using the training set.
-5. **Prediction:** The model predicts diabetes status on the test set.
-6. **Evaluation:** The model is evaluated using:
-   - Accuracy
-   - R² Score
-   - RMSE
-   - Confusion Matrix
+- `main_script.m` – Main MATLAB script for data loading, preprocessing, model training, evaluation, and visualization  
+- `evaluation.m` – Function to compute Accuracy, R² score, and RMSE  
+- `plot_classif.m` – Function to generate the confusion matrix plot  
+- `diabetes_dataset1.xlsx` – Excel version of the dataset (you must download and place this manually)
 
 ---
 
-## How to Run
+## ⚙️ How It Works
 
-1. Make sure you have **MATLAB** installed.
-2. Clone this repository or download the files:
-   ```bash
-   git clone https://github.com/your-username/diabetes-prediction-ml.git
-   cd diabetes-prediction-ml
-3.Open MATLAB and navigate to the project folder.
+1. **Data Loading**  
+2. **Preprocessing**  
+   - Encode categorical variables (e.g., gender, smoking history) into numerical values  
+   - Normalize all features to the range [-1, 1]  
+3. **Data Splitting**  
+   - 70% training set  
+   - 30% testing set  
+4. **Model Training**  
+   - Train an SVM classifier on the training set  
+5. **Prediction**  
+   - Predict diabetes status on the test set  
+6. **Evaluation**  
+   - Accuracy  
+   - R² Score  
+   - RMSE  
+   - Confusion Matrix plot
 
-4.Run the main_script.m file.
+---
 
-5.Ensure that diabetes_dataset1.xlsx is in the same folder.
+## 🚀 Setup & Run Instructions
 
-6.You will see printed evaluation metrics and a confusion matrix plot.
+1. **Clone the repository**
+
+    ```bash
+    git clone https://github.com/your-username/diabetes-prediction-ml.git
+    cd diabetes-prediction-ml
+    ```
+
+2. **Download the dataset**
+
+    - Visit the [Kaggle dataset page](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)  
+    - Download `diabetes_prediction_dataset.csv` or `.xlsx`  
+    - Rename it to `diabetes_dataset1.xlsx`  
+    - Place it in the project folder
+
+3. **Run in MATLAB**
+
+    - Open MATLAB  
+    - Navigate to the project folder  
+    - Run the main script:
+
+      ```matlab
+      main_script
+      ```
+
+4. **Requirements**
+
+    - MATLAB (R2020 or newer recommended)  
+    - No additional toolboxes required
+
+---
+
+## 👩‍💻 Author
+
+**Zenia Fragaki**  
+Machine Learning Project – Diabetes Classification  
+GitHub: [https://github.com/your-username](https://github.com/your-username)
+
+---
+
+## 📄 License
+
+This project is intended for educational use. You may use, modify, or share it for non-commercial purposes. For commercial use, please contact the author.
