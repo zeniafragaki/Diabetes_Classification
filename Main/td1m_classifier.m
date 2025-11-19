@@ -4,7 +4,7 @@
 
 ---------------------------
 function td1m_classifier
-    %---- MULTI-MODEL CLASSIFIER BENCHMARK (SVM, RF, MLP, RBF-KMeans) ----
+
     
     % 1. Load and Process Data
     fprintf('<strong>[Step 1] Loading and Processing Data...</strong>\n');
@@ -64,7 +64,6 @@ function td1m_classifier
     num_neg = sum(y_train == -1); 
     num_pos = sum(y_train == 1);
     base_ratio = num_neg / num_pos;
-    % We use a slightly conservative balance factor to avoid excessive false alarms
     balance_factor = 0.6; 
     class_weight = base_ratio * balance_factor;
     
@@ -197,7 +196,7 @@ function stats = evaluation(y_true, y_pred, name)
     stats.rec = sensitivity;
     stats.f1 = f1;
     
-    % Only print short summary to keep console clean
+
     fprintf(' -> %s Done. F1: %.4f (Recall: %.2f%%)\n', name, f1, sensitivity*100);
 end
 
