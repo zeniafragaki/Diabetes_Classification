@@ -44,17 +44,6 @@ It contains medical and demographic data—such as age, gender, BMI, hypertensio
    - Accuracy, Recall (Sensitivity), Precision, and F1-Score.
    - Confusion Matrix visualization for all models.
 
-## Benchmark Results
-
-*Typical performance on the held-out Test Set:*
-
-| Model | Accuracy | Recall (Sensitivity) | F1-Score | Verdict |
-| :--- | :---: | :---: | :---: | :--- |
-| **MLP (Neural Net)** | 93.62% | **84.12%** | 0.6972 | 🏆 **Best Overall:** High safety & precision. |
-| **SVM (RBF Kernel)** | 93.01% | 84.05% | 0.6775 | **High Safety:** Very similar to MLP. |
-| **Random Forest** | **96.33%** | 74.20% | **0.7795** | **High Precision:** Best accuracy, but misses cases. |
-| **RBF (K-Means)** | 91.50% | 81.30% | 0.6256 | **Baseline:** Good sensitivity. |
-
 ##  Instructions
 
 1. **Clone the repository**
