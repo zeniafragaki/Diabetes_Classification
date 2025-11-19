@@ -15,12 +15,12 @@ Source: [https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-datase
 
 It contains medical and demographic data—such as age, gender, BMI, hypertension, heart disease, smoking history, HbA1c level, and blood glucose level—along with a diagnosis label.
 
-## 📄 Files Included
+##  Files Included
 
 - `diabetes_benchmark_optimized.m` – The main all-in-one script. Handles data loading, auto-tuning, training 4 models, and plotting results.
 - `diabetes_dataset.xlsx` – Excel version of the dataset (you must download and place this manually).
 
-## ⚙️ Framework
+##  Framework
 
 1. **Data Loading & Processing**
    - Encodes categorical variables (Gender, Smoking History) to numerical scales.
@@ -44,7 +44,7 @@ It contains medical and demographic data—such as age, gender, BMI, hypertensio
    - Accuracy, Recall (Sensitivity), Precision, and F1-Score.
    - Confusion Matrix visualization for all models.
 
-## 📊 Benchmark Results
+## Benchmark Results
 
 *Typical performance on the held-out Test Set:*
 
