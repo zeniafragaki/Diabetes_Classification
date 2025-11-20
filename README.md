@@ -66,7 +66,7 @@ It contains medical and demographic data—such as age, gender, BMI, hypertensio
     - Run the benchmark script:
 
       ```matlab
-      diabetes_benchmark_optimized
+      td1m_classifier.m
       ```
 
 4. **Requirements**
